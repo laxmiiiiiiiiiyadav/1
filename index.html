@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #3E54AC">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--wall poster-->
+        <a-plane id="wall-poster right" src="https://cdn.pixabay.com/photo/2015/04/29/09/28/graffiti-745071__340.jpg"
+            position="1 6 -3.3" rotation="0 0 0 " width="23" height="15">
+        </a-plane>
+
+        <!--floor-->
+        <a-plane id="floor" src="https://housing.com/news/wp-content/uploads/2023/01/wood-floor-compressed.jpg"
+            position=" 1 -2.8.3" rotation="-75 0 0 " width="23" height="12">
+        </a-plane>
+
+        <!--table-->
+        <a-plane  position=" 0.4 1.2 10" rotation="-65 0 0 " width="3.5" height="2"  src = "https://media.istockphoto.com/id/933501774/photo/dark-wood-background.jpg?s=612x612&w=0&k=20&c=YIeJl5fLcob71k8knTKeA-DpdQjvy0g5XhfY_smG3XY=">
+        </a-plane>
+
+        <a-cylinder position="0.9 0.0 7" radius="1.2" height="1.3" src ="https://media.istockphoto.com/id/933501774/photo/dark-wood-background.jpg?s=612x612&w=0&k=20&c=YIeJl5fLcob71k8knTKeA-DpdQjvy0g5XhfY_smG3XY="></a-cylinder>
+
+        <!--mat-->
+        <a-plane  position=" 0.5 0.0 9.8" rotation="-85 0 0 " width="3.5" height="2"  src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKH64yfxH8RaeHV88cxSN7gmmakEH-EGZjQ&usqp=CAU">
+        </a-plane>
+
+
+        <!--lamp-->
+        <a-cylinder position="2 11.7 -3" radius="0.2" height="3" color="black"></a-cylinder>
+        <a-sphere position="0.6 4 10" radius ="0.3.7" color="yellow"></a-sphere>
+
+
+        <!--chair-->
+        <a-cylinder position="-7 -1 -1" radius="1" height="3" color="white"></a-cylinder>
+        <a-cylinder position="10 -1 -1" radius="1" height="3" color="white"></a-cylinder>
+
